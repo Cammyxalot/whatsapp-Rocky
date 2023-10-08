@@ -26,7 +26,11 @@ export default function App() {
 
   const sendAutoReplies = () => {
     const replies = getReplies();
-    const sendMessage = { text: replies.text, user: replies.user, isUser: false };
+    const sendMessage = {
+      text: replies.text,
+      user: replies.user,
+      isUser: false,
+    };
     setMessages([...messages, sendMessage]);
   };
 
@@ -48,13 +52,13 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" />
-      <FlatList
-      style={styles.flatlist}
-        data={messages}
-        renderItem={({ item }) => (
-          <Card props={item.text} user={item.user} isUser={item.isUser} />
-        )}
-      />
+        <FlatList
+          style={styles.flatlist}
+          data={messages}
+          renderItem={({ item }) => (
+            <Card props={item.text} user={item.user} isUser={item.isUser} />
+          )}
+        />
       <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
         <KeyboardAvoidingView behavior="padding" style={styles.keyboard}>
           <View style={styles.inputContainer}>
@@ -99,6 +103,8 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     width: "100%",
     padding: 30,
+    paddingBottom: 100,
+    height: "50%",
   },
   keyboard: {
     marginBottom: 20,
