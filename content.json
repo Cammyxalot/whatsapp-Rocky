@@ -1,0 +1,40 @@
+{
+  "replies": [
+    {
+      "user": "John",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "user": "Jane",
+      "text": "Praesent euismod, augue vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    },
+    {
+      "user": "Bob",
+      "text": "Sed euismod, velit vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    },
+    {
+      "user": "John",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "user": "Jane",
+      "text": "Praesent euismod, augue vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    },
+    {
+      "user": "Bob",
+      "text": "Sed euismod, velit vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    },
+    {
+      "user": "Alice",
+      "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed euismod, velit vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    },
+    {
+      "user": "Charlie",
+      "text": "Nulla facilisi. Sed euismod, velit vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    },
+    {
+      "user": "David",
+      "text": "Etiam euismod, velit vel bibendum bibendum, velit sapien luctus sapien, vel lacinia nisl elit vel velit."
+    }
+  ]
+}
